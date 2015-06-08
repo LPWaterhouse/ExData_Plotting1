@@ -20,4 +20,4 @@
   ## make chart
   
 
-  hist(data_tbl3$Global_active_power_KW, main = "Global Active Power", col = "Red", xlab = "Global Active Power (kilowatts)")
+  plot(data_tbl3$Time, data_tbl3$Global_active_power)
